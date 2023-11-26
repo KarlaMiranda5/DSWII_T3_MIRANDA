@@ -21,7 +21,7 @@ import java.util.Set;
 public class DetalleUsuarioService {
 
     private UsuarioRepository usuarioRepository;
-    @Override
+
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         Usuario usuario = usuarioRepository.findByNomusuario(username);
         return autenticacionUsuario(usuario,

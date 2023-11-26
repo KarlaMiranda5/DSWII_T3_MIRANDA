@@ -2,6 +2,7 @@ package cib.edu.examen.controller;
 
 
 import cib.edu.examen.model.ResponseFile;
+import cib.edu.examen.service.FileService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

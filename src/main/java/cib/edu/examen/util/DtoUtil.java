@@ -1,6 +1,8 @@
 package cib.edu.examen.util;
 
 
+import cib.edu.examen.model.DtoEntity;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 
 @Component

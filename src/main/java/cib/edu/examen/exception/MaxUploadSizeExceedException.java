@@ -1,6 +1,6 @@
 package cib.edu.examen.exception;
 
-public class MaxUploadSizeExceedException xtends RuntimeException {
+public class MaxUploadSizeExceedException extends RuntimeException {
     public MaxUploadSizeExceedException (String message){
         super(message);
     }
